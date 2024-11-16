@@ -1,0 +1,11 @@
+# Files matching patterns in this file will be excluded from auto-resolve during merge conflicts
+# The pattern syntax is the same as for .gitignore files
+# here is more documentation: 
+# Copado Docs & Samples: https://docs.copado.com/articles/copado-ci-cd-publication/conflict-resolution-in-copado-devops-platform/a/h3__67432754
+**/classes/*.cls
+**/layouts/*.layout-meta.xml
+**/triggers/**
+**/lwc/**
+**/aura/**
+**/pages/**
+**/email/**/*.email
