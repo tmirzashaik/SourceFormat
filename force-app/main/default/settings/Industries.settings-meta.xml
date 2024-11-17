@@ -6,7 +6,7 @@
     <enableAppFrmAnywhereOrgPref>false</enableAppFrmAnywhereOrgPref>
     <enableAppInviteOrgPref>false</enableAppInviteOrgPref>
     <enableCapacitySchedulingPref>false</enableCapacitySchedulingPref>
-    <enableDepriveSoqlAccessGuestUserOrgPref>true</enableDepriveSoqlAccessGuestUserOrgPref>
+    <enableDepriveSoqlAccessGuestUserOrgPref>false</enableDepriveSoqlAccessGuestUserOrgPref>
     <enableDepriveSoqlAccessOrgPref>true</enableDepriveSoqlAccessOrgPref>
     <enableDropInAppointmentsOrgPref>false</enableDropInAppointmentsOrgPref>
     <enableEventManagementOrgPref>false</enableEventManagementOrgPref>
