@@ -8,4 +8,4 @@ public class TemperatureConverter {
     //Testing Deepak case(testing with re commit) and testing auto resolve with new user story
   
 }
-//test for metadatada disappearing
+//test for CLi latest
