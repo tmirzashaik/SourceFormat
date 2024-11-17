@@ -6854,6 +6854,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
+        <name>ActivitiesAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>AddAnalyticsRemoteConnections</name>
     </userPermissions>
     <userPermissions>
