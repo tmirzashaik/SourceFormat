@@ -6849,7 +6849,6 @@
         <enabled>false</enabled>
         <name>ActivateOrder</name>
     </userPermissions>
-    </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
         <name>AddAnalyticsRemoteConnections</name>
