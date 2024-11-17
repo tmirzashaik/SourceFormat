@@ -44,6 +44,10 @@
                 <behavior>Edit</behavior>
                 <field>ExpiresAt</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>SequenceNumber</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
