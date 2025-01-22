@@ -4,8 +4,6 @@ public class TemperatureConverter {
         Decimal cs = (fh - 32) * 5/9;
         return cs.setScale(2);
     }
-    
-    //Testing Deepak case(testing with re commit) and testing auto resolve with new user story
-  
 }
-//test for metadatada disappearing - new
+
+//CLI test
