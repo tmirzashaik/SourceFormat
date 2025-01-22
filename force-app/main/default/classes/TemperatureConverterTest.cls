@@ -16,10 +16,5 @@ private class TemperatureConverterTest {
     @isTest static void testNegativeTemp() {
         Decimal celsius = TemperatureConverter.FahrenheitToCelsius(-10);
         System.assertEquals(-23.33,celsius);
-        
-        //Testing deepak case(testing with re commit) and testing auto resolve with new user story
-        
-        //Testing autoresolve with nre user story
     }
 }
-//test for metadatada disappearing
