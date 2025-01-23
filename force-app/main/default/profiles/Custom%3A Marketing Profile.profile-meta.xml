@@ -148,7 +148,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.CleanStatus</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -158,7 +158,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.DandbCompanyId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -293,7 +293,7 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Account.YearStarted</field>
         <readable>true</readable>
     </fieldPermissions>
