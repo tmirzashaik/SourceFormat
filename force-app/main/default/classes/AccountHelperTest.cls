@@ -33,4 +33,26 @@ public class AccountHelperTest {
         List<Account> accounts = AccountHelper.getActiveAccounts();
         System.assertNotEquals(null, accounts);
     }
+/*    @isTest
+static void testAssignAccountTerritory() {
+    // Create test account
+    Account testAcc = new Account(Name = 'Test Account', Territory__c = 'North');
+    insert testAcc;
+    
+    // Test territory assignment
+    AccountHelper.assignAccountTerritory(testAcc.Id, 'South');
+    
+    Account updatedAcc = [SELECT Territory__c FROM Account WHERE Id = :testAcc.Id];
+    System.assertEquals('South', updatedAcc.Territory__c);
+    
+    // Test exception handling
+    try {
+        AccountHelper.assignAccountTerritory(null, 'West');
+        System.assert(false, 'Expected exception');
+    } catch (IllegalArgumentException e) {
+        System.assert(true);
+    }
+}
+*/
+
 }
