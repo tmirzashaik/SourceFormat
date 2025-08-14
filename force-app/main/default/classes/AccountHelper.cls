@@ -23,17 +23,19 @@ public class AccountHelper {
         
         return [SELECT COUNT() FROM Account WHERE Type = :accountType];
     }
-/*
+/*    public static void assignAccountTerritory(Id accountId, String territory) {
+        if (accountId == null || String.isBlank(territory)) {
+            throw new IllegalArgumentException('Account ID and Territory are required');
+        }
     
-    List<Account> accountsToUpdate = new List<Account>();
-    for (Id accId : accountIds) {
-        accountsToUpdate.add(new Account(Id = accId, Status__c = newStatus));
+        Account acc = [SELECT Id, Territory__c FROM Account WHERE Id = :accountId LIMIT 1];
+        acc.Territory__c = territory;
+        update acc;
     }
-    
-    if (!accountsToUpdate.isEmpty()) {
-        update accountsToUpdate;
+    public static void updateAccountStatus(List<Id> accountIds, String newStatus) {
+    if (accountIds == null || accountIds.isEmpty() || String.isBlank(newStatus)) {
+        return;
     }
-}
 */ 
 
 }
