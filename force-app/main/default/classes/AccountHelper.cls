@@ -23,4 +23,17 @@ public class AccountHelper {
         
         return [SELECT COUNT() FROM Account WHERE Type = :accountType];
     }
+/*
+    
+    List<Account> accountsToUpdate = new List<Account>();
+    for (Id accId : accountIds) {
+        accountsToUpdate.add(new Account(Id = accId, Status__c = newStatus));
+    }
+    
+    if (!accountsToUpdate.isEmpty()) {
+        update accountsToUpdate;
+    }
+}
+*/ 
+
 }
