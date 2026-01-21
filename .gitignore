@@ -48,4 +48,4 @@ $RECYCLE.BIN/
 **/.venv/
 **/venv/
 
-force-app/main/default/profiles/API %28No Access%29.profile-meta.xml
+**/profiles/API (No Access).profile-meta.xml
