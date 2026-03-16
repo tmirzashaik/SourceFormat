@@ -7080,6 +7080,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>CollectUserEngagementDataforInsightCalculation</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ConnectOrgToEnvironmentHub</name>
     </userPermissions>
     <userPermissions>
