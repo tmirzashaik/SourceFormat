@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Event.Appointment_Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Task.Appointment_Location__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>Experience Profile Manager</label>
     <license>Salesforce</license>
@@ -13,6 +23,10 @@
         <viewAllFields>true</viewAllFields>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AccessCMC</name>
+    </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
         <name>CreateCustomizeReports</name>
@@ -32,6 +46,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>IsotopeLEX</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
